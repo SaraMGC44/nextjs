@@ -62,7 +62,9 @@ export default function Home() {
   };
 
   return (
+    
     <main className={styles.main}>
+      <h1><center>Quiz 4!!</center></h1>
       <form onSubmit={handleSubmit} className={styles.formContainer}>
         <input
           type="email"
@@ -96,6 +98,7 @@ export default function Home() {
 
         <input type="submit" value="Submit" className={styles.submitButton} />
       </form>
+   
     </main>
   );
 }
